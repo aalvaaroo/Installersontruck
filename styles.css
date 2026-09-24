@@ -1209,8 +1209,8 @@ img[src*='wrap-purple'] {
   }
   .arrow {
     position: relative;
-    width: 1.1em;
-    height: 1.1em;
+    width: 1rem;
+    height: 1rem;
     flex: none;
     font-size: 0;
     vertical-align: -0.12em;
@@ -1218,9 +1218,9 @@ img[src*='wrap-purple'] {
   .arrow::before {
     content: '';
     position: absolute;
-    left: 0.1em;
-    top: 0.65em;
-    width: 0.78em;
+    left: 0.1rem;
+    top: 0.65rem;
+    width: 0.78rem;
     border-top: 1.5px solid currentColor;
     transform: rotate(-45deg);
     transform-origin: left center;
@@ -1228,10 +1228,10 @@ img[src*='wrap-purple'] {
   .arrow::after {
     content: '';
     position: absolute;
-    top: 0.08em;
-    right: 0.08em;
-    width: 0.38em;
-    height: 0.38em;
+    top: 0.08rem;
+    right: 0.08rem;
+    width: 0.38rem;
+    height: 0.38rem;
     border-top: 1.5px solid currentColor;
     border-right: 1.5px solid currentColor;
   }
@@ -3096,4 +3096,10 @@ html:not(.js) .observation-note + .observation-note {
   margin-top: 35px;
   border-top: 1px solid var(--line);
   padding-top: 25px;
+}
+
+@media (max-width: 620px) {
+  .arrow {
+    font-size: 0 !important;
+  }
 }
