@@ -1,0 +1,19 @@
+{
+  "name": "track-creativo",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "assets": "node scripts/assets.mjs",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "linkedom": "^0.18.12",
+    "prettier": "3.9.9",
+    "sharp": "^0.35.4"
+  }
+}

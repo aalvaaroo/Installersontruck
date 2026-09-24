@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.delivery/
+.original/
+.openai/
+assets/
+package-lock.json
