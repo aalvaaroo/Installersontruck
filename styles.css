@@ -1207,6 +1207,34 @@ img[src*='wrap-purple'] {
     gap: 18px;
     padding-inline: 16px;
   }
+  .arrow {
+    position: relative;
+    width: 1.1em;
+    height: 1.1em;
+    flex: none;
+    font-size: 0;
+    vertical-align: -0.12em;
+  }
+  .arrow::before {
+    content: '';
+    position: absolute;
+    left: 0.1em;
+    top: 0.65em;
+    width: 0.78em;
+    border-top: 1.5px solid currentColor;
+    transform: rotate(-45deg);
+    transform-origin: left center;
+  }
+  .arrow::after {
+    content: '';
+    position: absolute;
+    top: 0.08em;
+    right: 0.08em;
+    width: 0.38em;
+    height: 0.38em;
+    border-top: 1.5px solid currentColor;
+    border-right: 1.5px solid currentColor;
+  }
   .school-cover h1 {
     font-size: clamp(3rem, 15vw, 4.6rem);
   }
