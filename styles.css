@@ -1171,6 +1171,9 @@ img[src*='wrap-purple'] {
   :root {
     --gutter: 20px;
   }
+  body {
+    overflow-x: hidden;
+  }
   .header-inner {
     min-height: 72px;
   }
@@ -1191,6 +1194,21 @@ img[src*='wrap-purple'] {
   }
   .menu-toggle span {
     margin-left: 9px;
+  }
+  .button-row {
+    align-items: stretch;
+    gap: 12px 18px;
+  }
+  .button-row .button,
+  .button-row .text-link {
+    max-width: 100%;
+  }
+  .button {
+    gap: 18px;
+    padding-inline: 16px;
+  }
+  .school-cover h1 {
+    font-size: clamp(3rem, 15vw, 4.6rem);
   }
   .section {
     padding-block: 60px;
@@ -1269,6 +1287,8 @@ img[src*='wrap-purple'] {
     flex-wrap: nowrap;
     font-size: 0.75rem;
     padding: 14px;
+    align-items: flex-start;
+    white-space: normal;
   }
   .academy-copy h2 {
     font-size: 3.4rem;
@@ -1448,6 +1468,7 @@ img[src*='wrap-purple'] {
   }
   .contact-form {
     padding: 25px 20px;
+    overflow: hidden;
   }
   .contact-form h2 {
     font-size: 2.2rem;
@@ -1497,6 +1518,10 @@ img[src*='wrap-purple'] {
   }
   .form-feedback {
     padding: 15px;
+  }
+  .footer-bottom > * {
+    max-width: 100%;
+    overflow-wrap: anywhere;
   }
 }
 @media (max-width: 360px) {

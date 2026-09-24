@@ -681,6 +681,8 @@ html:not(.js) .library-tools {
     padding-bottom: 48px;
   }
   .library-nav {
+    align-items: flex-start;
+    flex-wrap: wrap;
     gap: 16px;
     padding-block: 16px;
   }
@@ -688,6 +690,8 @@ html:not(.js) .library-tools {
     font-size: 1.25rem;
   }
   .library-nav > div {
+    flex: 1 1 100%;
+    justify-content: flex-end;
     gap: 14px;
     font-size: 0.8125rem;
   }
@@ -699,16 +703,16 @@ html:not(.js) .library-tools {
     gap: 35px;
   }
   .library-hero h1 {
-    font-size: 4.2rem;
+    font-size: clamp(3.25rem, 15vw, 4.2rem);
   }
   .library-feature {
-    min-height: 330px;
+    min-height: 280px;
   }
   .feature-caption {
     padding: 22px;
   }
   .feature-caption h2 {
-    font-size: 2.5rem;
+    font-size: clamp(2rem, 10vw, 2.5rem);
   }
   .library-filters {
     gap: 6px;
@@ -719,6 +723,7 @@ html:not(.js) .library-tools {
   }
   .library-search {
     flex-basis: 100%;
+    min-width: 0;
   }
   .shelf-title {
     display: block;
@@ -746,7 +751,7 @@ html:not(.js) .library-tools {
   }
   .classroom-player {
     aspect-ratio: auto;
-    min-height: 450px;
+    min-height: 380px;
   }
   .player-access {
     padding: 30px 18px 45px;
