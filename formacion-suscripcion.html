@@ -4,57 +4,67 @@
     <meta charset="utf-8" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Formación online · Installers On Track | Installers On Track</title>
+    <title>Comunidad online · Cursos en vídeo por suscripción | Track Creativo</title>
     <meta
       name="description"
-      content="Aprende wrapping online con los cursos guiados y contenidos técnicos de Installers On Track, la academia de Track Creativo."
+      content="Únete a la comunidad online de Track Creativo: una membresía para acceder a cursos en vídeo de wrapping y PPF y aprender a tu ritmo."
     />
     <meta name="theme-color" content="#171918" />
-
+    <link
+      rel="canonical"
+      href="https://aalvaaroo.github.io/Installersontruck/formacion-suscripcion.html"
+    />
+    <meta
+      property="og:url"
+      content="https://aalvaaroo.github.io/Installersontruck/formacion-suscripcion.html"
+    />
+    <meta property="og:image" content="https://aalvaaroo.github.io/Installersontruck/logo.jpg" />
+    <meta name="twitter:image" content="https://aalvaaroo.github.io/Installersontruck/logo.jpg" />
     <meta
       property="og:title"
-      content="Formación online · Installers On Track | Installers On Track"
+      content="Comunidad online · Cursos en vídeo por suscripción | Track Creativo"
     />
     <meta
       property="og:description"
-      content="Aprende wrapping online con los cursos guiados y contenidos técnicos de Installers On Track, la academia de Track Creativo."
+      content="Únete a la comunidad online de Track Creativo: una membresía para acceder a cursos en vídeo de wrapping y PPF y aprender a tu ritmo."
     />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_ES" />
     <meta property="og:image:alt" content="Identidad de Track Creativo" />
     <meta name="twitter:card" content="summary" />
-    <link rel="icon" href="assets/brand.webp" type="image/webp" />
+    <link rel="icon" href="media-brand.webp" type="image/webp" />
     <link
       rel="preload"
-      href="assets/barlow-condensed-latin-700.woff2"
+      href="media-barlow-condensed-latin-700.woff2"
       as="font"
       type="font/woff2"
       crossorigin
     />
     <link
       rel="preload"
-      href="assets/manrope-latin-variable.woff2"
+      href="media-manrope-latin-variable.woff2"
       as="font"
       type="font/woff2"
       crossorigin
     />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="community.css" />
     <script>
       document.documentElement.classList.add('js');
     </script>
     <script src="main.js" defer></script>
+    <script src="community.js" defer></script>
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "EducationalOrganization",
-        "name": "Installers On Track",
-        "alternateName": "Track Creativo",
+        "name": "Track Creativo",
+        "alternateName": "Academia de instalación",
+        "url": "https://aalvaaroo.github.io/Installersontruck",
         "telephone": "+34655588489",
-        "email": "info@installersontrack.com",
         "sameAs": [
           "https://www.instagram.com/trackcreativo/",
-          "https://www.youtube.com/@trackcreativo6797",
-          "https://installersontrack.com/"
+          "https://www.youtube.com/@trackcreativo6797"
         ],
         "address": {
           "@type": "PostalAddress",
@@ -71,16 +81,16 @@
     <a href="#main" class="skip-link">Saltar al contenido</a>
     <header class="site-header">
       <div class="wrap header-inner">
-        <a class="brand" href="index.html" aria-label="Installers On Track — Inicio"
-          ><img src="assets/brand.webp" width="48" height="48" alt="" /><span class="brand-name"
-            >INSTALLERS ON TRACK<span>ACADEMIA · TRACK CREATIVO</span></span
+        <a class="brand" href="index.html" aria-label="Track Creativo — Inicio"
+          ><img src="media-brand.webp" width="48" height="48" alt="" /><span class="brand-name"
+            >TRACK CREATIVO<span>ACADEMIA DE INSTALACIÓN</span></span
           ></a
         ><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
           Menú <span aria-hidden="true">+</span>
         </button>
         <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
           <a href="formacion-presencial.html">Cursos</a
-          ><a href="formacion-suscripcion.html" aria-current="page">Online</a
+          ><a href="formacion-suscripcion.html" aria-current="page">Comunidad online</a
           ><a href="servicios.html">El método</a><a href="sobre-nosotros.html">La academia</a
           ><a class="button header-cta" href="contacto.html"
             >Te orientamos <span class="arrow" aria-hidden="true">↗</span></a
@@ -89,34 +99,53 @@
       </div>
     </header>
     <main id="main" tabindex="-1">
-      <section class="page-heading wrap">
-        <nav class="breadcrumbs" aria-label="Ruta de navegación">
-          <a href="index.html">Inicio</a><span aria-hidden="true">/</span
-          ><span aria-current="page">Formación online</span>
+      <div class="community-platform">
+        <nav class="library-nav wrap" aria-label="Comunidad online">
+          <a class="library-name" href="index.html">ON TRACK <span>COMUNIDAD</span></a>
+          <div>
+            <a href="formacion-suscripcion.html#catalogo" aria-current="page">Catálogo</a>
+            <a href="mi-cuenta.html">Acceder</a>
+            <a class="library-join" href="registro.html"
+              >Suscribirme <span class="arrow" aria-hidden="true">↗</span></a
+            >
+          </div>
         </nav>
-        <div class="eyebrow">Installers On Track / Online</div>
-        <div class="heading-split">
-          <h1>FORMACIÓN ONLINE.<br /><span class="text-orange">A TU RITMO.</span></h1>
-          <p class="lead">
-            Una técnica que repasar, un material por entender o una duda sobre una pieza. Sigue
-            aprendiendo con el contenido de nuestra academia.
-          </p>
-        </div>
-      </section>
-      <section class="section works-section">
-        <div class="wrap academy-block">
-          <div class="academy-image">
+
+        <section class="library-hero wrap">
+          <div class="library-hero-copy">
+            <span class="membership-label">COMUNIDAD PRIVADA · SUSCRIPCIÓN</span>
+            <h1>TU OFICIO.<br /><span>EN PLAY.</span></h1>
+            <p>
+              Una comunidad para seguir aprendiendo. Suscríbete y accede a los cursos en vídeo de
+              Track Creativo: elige qué ver, avanza lección a lección y vuelve a lo que necesites.
+            </p>
+            <div class="button-row">
+              <a class="button" href="registro.html"
+                >Quiero ser miembro<span class="arrow" aria-hidden="true">↗</span></a
+              ><a class="text-link" href="#catalogo"
+                >Explorar los cursos<span class="arrow" aria-hidden="true">↗</span></a
+              >
+            </div>
+            <p class="library-access">
+              ¿Ya formas parte? <a href="mi-cuenta.html">Accede a tu cuenta</a>
+            </p>
+          </div>
+          <a
+            class="library-feature"
+            href="aula.html?curso=cambio-color"
+            aria-label="Explorar Cambio de color paso a paso"
+          >
             <picture class="">
               <source
                 type="image/webp"
-                srcset="assets/live-wrap-360.webp 360w, assets/live-wrap-720.webp 425w"
-                sizes="(max-width: 620px) calc(100vw - 40px), (max-width: 1000px) 46vw, 620px"
+                srcset="media-live-wrap-360.webp 360w, media-live-wrap-720.webp 425w"
+                sizes="(max-width: 900px) 90vw, 52vw"
               />
               <img
-                src="assets/live-wrap-720.jpg"
-                srcset="assets/live-wrap-360.jpg 360w, assets/live-wrap-720.jpg 425w"
-                sizes="(max-width: 620px) calc(100vw - 40px), (max-width: 1000px) 46vw, 620px"
-                alt="Instalador adaptando vinilo rojo sobre el frontal de un coche durante una demostración"
+                src="media-live-wrap-720.jpg"
+                srcset="media-live-wrap-360.jpg 360w, media-live-wrap-720.jpg 425w"
+                sizes="(max-width: 900px) 90vw, 52vw"
+                alt="Aplicación de vinilo rojo durante una demostración técnica"
                 width="425"
                 height="646"
                 loading="eager"
@@ -124,81 +153,372 @@
                 decoding="async"
               />
             </picture>
-          </div>
-          <div class="academy-copy">
-            <div class="eyebrow">Aprendizaje conectado al oficio</div>
-            <h2>DE LA PANTALLA<br />A LA INSTALACIÓN.</h2>
-            <p>
-              Installers On Track reúne cursos guiados y contenido técnico sobre wrapping. Explora
-              los programas y sus condiciones en la plataforma oficial.
-            </p>
-            <ul class="check-list">
-              <li>Preparación, materiales y formas de aplicación</li>
-              <li>Piezas, curvas y situaciones de taller</li>
-              <li>Contenido para construir y reforzar tu técnica</li>
-            </ul>
-            <div class="button-row">
-              <a
-                class="button"
-                href="https://installersontrack.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Explorar la plataforma<span class="arrow" aria-hidden="true">↗</span></a
-              ><a class="text-link" href="contacto.html?interes=online"
-                >Orientarme antes de empezar<span class="arrow" aria-hidden="true">↗</span></a
+            <div class="feature-caption">
+              <span>CURSO EN VÍDEO</span>
+              <h2>Cambio de color<br />paso a paso.</h2>
+              <span class="feature-action"
+                >Descubre el curso <span class="play-symbol" aria-hidden="true">▶</span></span
               >
             </div>
+          </a>
+        </section>
+        <section class="library-catalogue wrap" id="catalogo" aria-label="Catálogo de vídeos">
+          <div class="library-tools">
+            <div class="library-filters" role="group" aria-label="Filtrar cursos por técnica">
+              <button type="button" data-library-filter="all" aria-pressed="true">
+                Todo el catálogo
+              </button>
+              <button type="button" data-library-filter="wrapping" aria-pressed="false">
+                Wrapping
+              </button>
+              <button type="button" data-library-filter="ppf" aria-pressed="false">PPF</button>
+            </div>
+            <div class="library-search">
+              <label class="sr-only" for="course-search">Buscar un curso</label
+              ><input
+                id="course-search"
+                type="search"
+                placeholder="Buscar un curso…"
+                autocomplete="off"
+              />
+            </div>
           </div>
-        </div>
-      </section>
-      <section class="section paper">
-        <div class="wrap intro-grid">
-          <div class="eyebrow">Una primera toma de contacto</div>
+
+          <section class="video-shelf" data-video-shelf>
+            <div class="shelf-title">
+              <h2>Cursos paso a paso</h2>
+              <span>ACCESO CON MEMBRESÍA</span>
+            </div>
+            <div class="video-grid">
+              <article
+                class="video-card"
+                data-video-card
+                data-category="wrapping"
+                data-title="Instaladores con fundamentos"
+              >
+                <a
+                  href="aula.html?curso=fundamentos"
+                  class="video-card-cover"
+                  aria-label="Explorar Instaladores con fundamentos"
+                >
+                  <picture class="">
+                    <source
+                      type="image/webp"
+                      srcset="media-academy-360.webp 360w, media-academy-720.webp 482w"
+                      sizes="(max-width: 620px) 90vw, (max-width: 1000px) 45vw, 420px"
+                    />
+                    <img
+                      src="media-academy-720.jpg"
+                      srcset="media-academy-360.jpg 360w, media-academy-720.jpg 482w"
+                      sizes="(max-width: 620px) 90vw, (max-width: 1000px) 45vw, 420px"
+                      alt="Instaladores con fundamentos"
+                      width="482"
+                      height="818"
+                      loading="lazy"
+                      fetchpriority="auto"
+                      decoding="async"
+                    />
+                  </picture>
+                  <span class="video-badge">Curso · Wrapping</span>
+                  <span class="play-symbol" aria-hidden="true">▶</span>
+                </a>
+                <div class="video-card-copy">
+                  <span class="video-level">Empieza aquí</span>
+                  <h3><a href="aula.html?curso=fundamentos">Instaladores con fundamentos</a></h3>
+                  <p>
+                    Una base para entender los materiales, preparar tu trabajo y tomar decisiones
+                    como instalador.
+                  </p>
+                  <a class="video-card-link" href="aula.html?curso=fundamentos"
+                    >Explorar el curso <span class="arrow" aria-hidden="true">↗</span></a
+                  >
+                </div>
+              </article>
+
+              <article
+                class="video-card"
+                data-video-card
+                data-category="wrapping"
+                data-title="Cambio de color paso a paso"
+              >
+                <a
+                  href="aula.html?curso=cambio-color"
+                  class="video-card-cover"
+                  aria-label="Explorar Cambio de color paso a paso"
+                >
+                  <picture class="">
+                    <source
+                      type="image/webp"
+                      srcset="media-live-wrap-360.webp 360w, media-live-wrap-720.webp 425w"
+                      sizes="(max-width: 620px) 90vw, (max-width: 1000px) 45vw, 420px"
+                    />
+                    <img
+                      src="media-live-wrap-720.jpg"
+                      srcset="media-live-wrap-360.jpg 360w, media-live-wrap-720.jpg 425w"
+                      sizes="(max-width: 620px) 90vw, (max-width: 1000px) 45vw, 420px"
+                      alt="Cambio de color paso a paso"
+                      width="425"
+                      height="646"
+                      loading="lazy"
+                      fetchpriority="auto"
+                      decoding="async"
+                    />
+                  </picture>
+                  <span class="video-badge">Curso · Wrapping</span>
+                  <span class="play-symbol" aria-hidden="true">▶</span>
+                </a>
+                <div class="video-card-copy">
+                  <span class="video-level">Proceso completo</span>
+                  <h3><a href="aula.html?curso=cambio-color">Cambio de color paso a paso</a></h3>
+                  <p>
+                    Recorre una instalación de vinilo: desde la preparación del vehículo hasta la
+                    revisión de los remates.
+                  </p>
+                  <a class="video-card-link" href="aula.html?curso=cambio-color"
+                    >Explorar el curso <span class="arrow" aria-hidden="true">↗</span></a
+                  >
+                </div>
+              </article>
+
+              <article
+                class="video-card"
+                data-video-card
+                data-category="ppf"
+                data-title="Instalación de PPF"
+              >
+                <a
+                  href="aula.html?curso=instalacion-ppf"
+                  class="video-card-cover"
+                  aria-label="Explorar Instalación de PPF"
+                >
+                  <picture class="">
+                    <source
+                      type="image/webp"
+                      srcset="media-detail-gray-360.webp 360w, media-detail-gray-720.webp 502w"
+                      sizes="(max-width: 620px) 90vw, (max-width: 1000px) 45vw, 420px"
+                    />
+                    <img
+                      src="media-detail-gray-720.jpg"
+                      srcset="media-detail-gray-360.jpg 360w, media-detail-gray-720.jpg 502w"
+                      sizes="(max-width: 620px) 90vw, (max-width: 1000px) 45vw, 420px"
+                      alt="Instalación de PPF"
+                      width="502"
+                      height="857"
+                      loading="lazy"
+                      fetchpriority="auto"
+                      decoding="async"
+                    />
+                  </picture>
+                  <span class="video-badge">Curso · PPF</span>
+                  <span class="play-symbol" aria-hidden="true">▶</span>
+                </a>
+                <div class="video-card-copy">
+                  <span class="video-level">Protección de pintura</span>
+                  <h3><a href="aula.html?curso=instalacion-ppf">Instalación de PPF</a></h3>
+                  <p>
+                    Superficie, líquidos y herramientas. Entiende el proceso de aplicación de una
+                    película de protección.
+                  </p>
+                  <a class="video-card-link" href="aula.html?curso=instalacion-ppf"
+                    >Explorar el curso <span class="arrow" aria-hidden="true">↗</span></a
+                  >
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section class="video-shelf" data-video-shelf>
+            <div class="shelf-title">
+              <h2>Técnicas al detalle</h2>
+              <span>ACCESO CON MEMBRESÍA</span>
+            </div>
+            <div class="video-grid">
+              <article
+                class="video-card"
+                data-video-card
+                data-category="wrapping"
+                data-title="Esquinas, cortes y sellado"
+              >
+                <a
+                  href="aula.html?curso=esquinas"
+                  class="video-card-cover"
+                  aria-label="Explorar Esquinas, cortes y sellado"
+                >
+                  <picture class="">
+                    <source
+                      type="image/webp"
+                      srcset="media-wrap-purple-360.webp 360w, media-wrap-purple-720.webp 461w"
+                      sizes="(max-width: 620px) 90vw, (max-width: 1000px) 45vw, 420px"
+                    />
+                    <img
+                      src="media-wrap-purple-720.jpg"
+                      srcset="media-wrap-purple-360.jpg 360w, media-wrap-purple-720.jpg 461w"
+                      sizes="(max-width: 620px) 90vw, (max-width: 1000px) 45vw, 420px"
+                      alt="Esquinas, cortes y sellado"
+                      width="461"
+                      height="738"
+                      loading="lazy"
+                      fetchpriority="auto"
+                      decoding="async"
+                    />
+                  </picture>
+                  <span class="video-badge">Técnica · Wrapping</span>
+                  <span class="play-symbol" aria-hidden="true">▶</span>
+                </a>
+                <div class="video-card-copy">
+                  <span class="video-level">Al detalle</span>
+                  <h3><a href="aula.html?curso=esquinas">Esquinas, cortes y sellado</a></h3>
+                  <p>Detén la mirada en las zonas que deciden el acabado de una instalación.</p>
+                  <a class="video-card-link" href="aula.html?curso=esquinas"
+                    >Explorar el curso <span class="arrow" aria-hidden="true">↗</span></a
+                  >
+                </div>
+              </article>
+
+              <article
+                class="video-card"
+                data-video-card
+                data-category="wrapping"
+                data-title="Cómo comenzar una pieza"
+              >
+                <a
+                  href="aula.html?curso=comenzar-pieza"
+                  class="video-card-cover"
+                  aria-label="Explorar Cómo comenzar una pieza"
+                >
+                  <picture class="">
+                    <source
+                      type="image/webp"
+                      srcset="
+                        media-yellow-detail-360.webp 360w,
+                        media-yellow-detail-720.webp 515w
+                      "
+                      sizes="(max-width: 620px) 90vw, (max-width: 1000px) 45vw, 420px"
+                    />
+                    <img
+                      src="media-yellow-detail-720.jpg"
+                      srcset="media-yellow-detail-360.jpg 360w, media-yellow-detail-720.jpg 515w"
+                      sizes="(max-width: 620px) 90vw, (max-width: 1000px) 45vw, 420px"
+                      alt="Cómo comenzar una pieza"
+                      width="515"
+                      height="657"
+                      loading="lazy"
+                      fetchpriority="auto"
+                      decoding="async"
+                    />
+                  </picture>
+                  <span class="video-badge">Técnica · Wrapping</span>
+                  <span class="play-symbol" aria-hidden="true">▶</span>
+                </a>
+                <div class="video-card-copy">
+                  <span class="video-level">Criterio de instalación</span>
+                  <h3><a href="aula.html?curso=comenzar-pieza">Cómo comenzar una pieza</a></h3>
+                  <p>
+                    Aprende a leer la geometría antes de colocar el material y planifica el orden de
+                    aplicación.
+                  </p>
+                  <a class="video-card-link" href="aula.html?curso=comenzar-pieza"
+                    >Explorar el curso <span class="arrow" aria-hidden="true">↗</span></a
+                  >
+                </div>
+              </article>
+
+              <article
+                class="video-card"
+                data-video-card
+                data-category="ppf"
+                data-title="Primeras impresiones: Color PPF"
+              >
+                <a
+                  href="aula.html?curso=color-ppf"
+                  class="video-card-cover"
+                  aria-label="Explorar Primeras impresiones: Color PPF"
+                >
+                  <picture class="">
+                    <source
+                      type="image/webp"
+                      srcset="media-masterclass-360.webp 360w, media-masterclass-720.webp 422w"
+                      sizes="(max-width: 620px) 90vw, (max-width: 1000px) 45vw, 420px"
+                    />
+                    <img
+                      src="media-masterclass-720.jpg"
+                      srcset="media-masterclass-360.jpg 360w, media-masterclass-720.jpg 422w"
+                      sizes="(max-width: 620px) 90vw, (max-width: 1000px) 45vw, 420px"
+                      alt="Primeras impresiones: Color PPF"
+                      width="422"
+                      height="540"
+                      loading="lazy"
+                      fetchpriority="auto"
+                      decoding="async"
+                    />
+                  </picture>
+                  <span class="video-badge">Técnica · PPF</span>
+                  <span class="play-symbol" aria-hidden="true">▶</span>
+                </a>
+                <div class="video-card-copy">
+                  <span class="video-level">Conoce el material</span>
+                  <h3><a href="aula.html?curso=color-ppf">Primeras impresiones: Color PPF</a></h3>
+                  <p>
+                    Acércate al PPF de color y observa cómo cambia la forma de trabajar con el
+                    material.
+                  </p>
+                  <a class="video-card-link" href="aula.html?curso=color-ppf"
+                    >Explorar el curso <span class="arrow" aria-hidden="true">↗</span></a
+                  >
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <p class="library-empty" hidden>
+            No encontramos cursos con esa búsqueda. Prueba otra técnica o palabra.
+          </p>
+          <p class="library-results sr-only" role="status" aria-live="polite">
+            6 contenidos en el catálogo
+          </p>
+        </section>
+        <section class="membership-summary wrap">
           <div>
-            <h2>EL CONOCIMIENTO<br />TAMBIÉN SE COMPARTE.</h2>
-            <div class="intro-bottom">
-              <p>
-                Acércate a nuestra forma de explicar en el canal de YouTube. Encontrarás técnicas,
-                materiales y procesos de instalación.
-              </p>
-              <a
-                class="text-link"
-                href="https://www.youtube.com/@trackcreativo6797"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Ver contenido en YouTube<span class="arrow" aria-hidden="true">↗</span></a
-              >
-            </div>
+            <span class="membership-label">TU MEMBRESÍA</span>
+            <h2>DALE CONTINUIDAD<br />A LO QUE APRENDES.</h2>
           </div>
-        </div>
-      </section>
+          <div>
+            <p>
+              El acceso a los vídeos forma parte de la comunidad de pago. Una vez dentro, escoge un
+              curso y sigue sus lecciones a tu ritmo.
+            </p>
+            <a class="button" href="registro.html"
+              >Conocer la membresía<span class="arrow" aria-hidden="true">↗</span></a
+            >
+          </div>
+        </section>
+      </div>
       <section class="section faq-section">
         <div class="wrap faq-layout">
           <div>
             <div class="eyebrow">Antes de empezar</div>
-            <h2>BUENAS<br />PREGUNTAS.</h2>
+            <h2>SOBRE<br />LA MEMBRESÍA.</h2>
           </div>
           <div class="faq-list">
             <details>
-              <summary>¿Dónde se gestionan el acceso y la suscripción?</summary>
+              <summary>¿Cómo funciona la comunidad online?</summary>
               <p>
-                En la plataforma oficial de Installers On Track. Allí puedes comprobar los programas
-                disponibles y sus condiciones antes de registrarte.
+                Es una comunidad de pago por suscripción. La membresía da acceso a los cursos en
+                vídeo disponibles en su catálogo.
               </p>
             </details>
             <details>
-              <summary>¿Necesito un curso presencial primero?</summary>
+              <summary>¿Puedo ver las lecciones cuando quiera?</summary>
               <p>
-                Tu experiencia y lo que quieras aprender determinan el mejor punto de partida. Si
-                tienes dudas, cuéntanos tu nivel y te orientaremos.
+                La formación está organizada en vídeos para que elijas el curso y avances a tu ritmo
+                mientras mantengas el acceso a la comunidad.
               </p>
             </details>
             <details>
-              <summary>¿Puedo combinar formación online y presencial?</summary>
+              <summary>¿Incluye los cursos presenciales?</summary>
               <p>
-                Puedes consultar ambas modalidades. La práctica presencial te permite trabajar sobre
-                la pieza con acompañamiento; el contenido online te ayuda a seguir estudiando
-                técnicas y procesos.
+                La comunidad online corresponde al catálogo de vídeos. Los cursos presenciales se
+                consultan e inscriben por separado.
               </p>
             </details>
           </div>
@@ -209,9 +529,9 @@
       <div class="wrap">
         <div class="footer-main">
           <div class="footer-brand">
-            <a class="brand" href="index.html" aria-label="Installers On Track — Inicio"
-              ><img src="assets/brand.webp" width="48" height="48" alt="" /><span class="brand-name"
-                >INSTALLERS ON TRACK<span>ACADEMIA · TRACK CREATIVO</span></span
+            <a class="brand" href="index.html" aria-label="Track Creativo — Inicio"
+              ><img src="media-brand.webp" width="48" height="48" alt="" /><span class="brand-name"
+                >TRACK CREATIVO<span>ACADEMIA DE INSTALACIÓN</span></span
               ></a
             >
             <p>Academia de wrapping, PPF y tintado.<br />Formación presencial y online.</p>
@@ -221,20 +541,20 @@
             ><a href="curso-wrap-avanzado.html">Wrap avanzado</a
             ><a href="curso-clear-ppf.html">Clear PPF</a
             ><a href="curso-tintado-lunas.html">Tintado de lunas</a
-            ><a href="formacion-suscripcion.html">Formación online</a>
+            ><a href="formacion-suscripcion.html">Comunidad online</a>
           </div>
           <div class="footer-column">
             <strong>Vive la academia</strong><a href="servicios.html">Nuestro método</a
             ><a href="proyectos.html">Cuaderno de prácticas</a
-            ><a href="comunidad.html">Comunidad y Wrap Days</a
+            ><a href="comunidad.html">Encuentros y Wrap Days</a
             ><a href="tienda.html">Herramientas para practicar</a
-            ><a href="mi-cuenta.html">Área de alumnos</a>
+            ><a href="mi-cuenta.html">Acceso de miembros</a>
           </div>
           <div class="footer-column">
             <strong>Orientación al alumno</strong
             ><a href="contacto.html">Consulta sobre tu formación</a
             ><a href="tel:+34655588489">+34 655 588 489</a
-            ><a href="mailto:info@installersontrack.com">info@installersontrack.com</a>
+            ><a href="contacto.html">Formulario de contacto</a>
             <div class="footer-social">
               <a
                 href="https://www.instagram.com/trackcreativo/"
@@ -251,7 +571,7 @@
           </div>
         </div>
         <div class="footer-bottom">
-          <span>© 2026 Track Creativo · Installers On Track</span
+          <span>© 2026 Track Creativo · Academia de instalación</span
           ><span>Alcalá de Henares · Madrid</span
           ><a href="privacidad.html">Privacidad y uso de la web</a>
         </div>

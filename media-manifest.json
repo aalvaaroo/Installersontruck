@@ -1,0 +1,156 @@
+{
+  "wrap-purple": [
+    {
+      "file": "media-wrap-purple-360.webp",
+      "fallback": "media-wrap-purple-360.jpg",
+      "width": 360,
+      "height": 576
+    },
+    {
+      "file": "media-wrap-purple-720.webp",
+      "fallback": "media-wrap-purple-720.jpg",
+      "width": 461,
+      "height": 738
+    }
+  ],
+  "detail-gray": [
+    {
+      "file": "media-detail-gray-360.webp",
+      "fallback": "media-detail-gray-360.jpg",
+      "width": 360,
+      "height": 615
+    },
+    {
+      "file": "media-detail-gray-720.webp",
+      "fallback": "media-detail-gray-720.jpg",
+      "width": 502,
+      "height": 857
+    }
+  ],
+  "yellow-detail": [
+    {
+      "file": "media-yellow-detail-360.webp",
+      "fallback": "media-yellow-detail-360.jpg",
+      "width": 360,
+      "height": 459
+    },
+    {
+      "file": "media-yellow-detail-720.webp",
+      "fallback": "media-yellow-detail-720.jpg",
+      "width": 515,
+      "height": 657
+    }
+  ],
+  "masterclass": [
+    {
+      "file": "media-masterclass-360.webp",
+      "fallback": "media-masterclass-360.jpg",
+      "width": 360,
+      "height": 461
+    },
+    {
+      "file": "media-masterclass-720.webp",
+      "fallback": "media-masterclass-720.jpg",
+      "width": 422,
+      "height": 540
+    }
+  ],
+  "community": [
+    {
+      "file": "media-community-360.webp",
+      "fallback": "media-community-360.jpg",
+      "width": 360,
+      "height": 249
+    },
+    {
+      "file": "media-community-720.webp",
+      "fallback": "media-community-720.jpg",
+      "width": 416,
+      "height": 288
+    }
+  ],
+  "live-wrap": [
+    {
+      "file": "media-live-wrap-360.webp",
+      "fallback": "media-live-wrap-360.jpg",
+      "width": 360,
+      "height": 547
+    },
+    {
+      "file": "media-live-wrap-720.webp",
+      "fallback": "media-live-wrap-720.jpg",
+      "width": 425,
+      "height": 646
+    }
+  ],
+  "academy": [
+    {
+      "file": "media-academy-360.webp",
+      "fallback": "media-academy-360.jpg",
+      "width": 360,
+      "height": 611
+    },
+    {
+      "file": "media-academy-720.webp",
+      "fallback": "media-academy-720.jpg",
+      "width": 482,
+      "height": 818
+    }
+  ],
+  "tint": [
+    {
+      "file": "media-tint-360.webp",
+      "fallback": "media-tint-360.jpg",
+      "width": 360,
+      "height": 625
+    },
+    {
+      "file": "media-tint-720.webp",
+      "fallback": "media-tint-720.jpg",
+      "width": 477,
+      "height": 828
+    }
+  ],
+  "squeegee": [
+    {
+      "file": "media-squeegee-360.webp",
+      "fallback": "media-squeegee-360.jpg",
+      "width": 360,
+      "height": 291
+    },
+    {
+      "file": "media-squeegee-720.webp",
+      "fallback": "media-squeegee-720.jpg",
+      "width": 596,
+      "height": 482
+    }
+  ],
+  "magnets": [
+    {
+      "file": "media-magnets-360.webp",
+      "fallback": "media-magnets-360.jpg",
+      "width": 360,
+      "height": 223
+    },
+    {
+      "file": "media-magnets-720.webp",
+      "fallback": "media-magnets-720.jpg",
+      "width": 429,
+      "height": 266
+    }
+  ],
+  "application": [
+    {
+      "file": "media-application-360.webp",
+      "fallback": "media-application-360.jpg",
+      "width": 360,
+      "height": 300
+    },
+    {
+      "file": "media-application-720.webp",
+      "fallback": "media-application-720.jpg",
+      "width": 448,
+      "height": 373
+    }
+  ]
+}

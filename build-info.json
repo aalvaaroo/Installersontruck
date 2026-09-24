@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "index.html",
+    "servicios.html",
+    "proyectos.html",
+    "proyecto-violeta.html",
+    "proyecto-grafica.html",
+    "proyecto-masterclass.html",
+    "formacion-presencial.html",
+    "curso-wrap-intermedio.html",
+    "curso-wrap-avanzado.html",
+    "curso-clear-ppf.html",
+    "curso-tintado-lunas.html",
+    "formacion-suscripcion.html",
+    "comunidad.html",
+    "sobre-nosotros.html",
+    "contacto.html",
+    "tienda.html",
+    "mi-cuenta.html",
+    "registro.html",
+    "privacidad.html",
+    "404.html",
+    "aula.html"
+  ],
+  "siteUrl": "https://aalvaaroo.github.io/Installersontruck",
+  "basePath": "/Installersontruck/"
+}

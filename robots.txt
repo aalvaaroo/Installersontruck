@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://aalvaaroo.github.io/Installersontruck/sitemap.xml
